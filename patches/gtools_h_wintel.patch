@@ -1,0 +1,13 @@
+--- gtools_raw.h	2024-07-13 23:24:52.075640700 +0800
++++ gtools_patched.h	2024-07-14 13:33:22.732741700 +0800
+@@ -59,7 +59,9 @@
+ #include <stdint.h>
+ #include <stdlib.h>
+ #include <string.h>
+-#include <unistd.h>
++#ifdef __GNUC__
++    #include <unistd.h>
++#endif
+ #include <inttypes.h>
+ #include <sys/types.h>
+ 

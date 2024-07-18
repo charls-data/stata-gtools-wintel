@@ -1,0 +1,3 @@
+[submodule "stata-gtools"]
+	path = stata-gtools
+	url = https://github.com/mcaceresb/stata-gtools

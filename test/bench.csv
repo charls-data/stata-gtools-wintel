@@ -1,0 +1,17 @@
+command,dnative,dgtools
+  collapse,  0.53,  1.03
+  collapse,  0.81,  0.85
+   reshape, 17.72,  3.83
+   reshape, 43.90,  6.93
+     xtile, 10.80,  0.77
+    pctile,  4.24,  0.59
+      egen,  1.58,  0.55
+  contract,  0.79,  0.70
+      isid, 12.50,  0.68
+duplicates,  5.01,  0.70
+  levelsof,  0.34,  0.28
+  distinct,  4.63,  0.28
+    winsor,  4.00,  0.52
+sum_detail,  3.93,  0.82
+   tabstat,  7.76,  0.49
+range_stat, 44.28,  2.34

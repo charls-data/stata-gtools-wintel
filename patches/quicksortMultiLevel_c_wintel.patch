@@ -1,0 +1,10 @@
+--- quicksortMultiLevel_raw.c	2024-07-13 23:24:52.070640800 +0800
++++ quicksortMultiLevel_patched.c	2024-07-14 13:37:35.205357100 +0800
+@@ -1,4 +1,6 @@
+-#include <sys/cdefs.h>
++#ifdef __GNUC__
++    #include <sys/cdefs.h>
++#endif
+ #include <stdlib.h>
+ #include <string.h>
+ #include "quicksort.c"
